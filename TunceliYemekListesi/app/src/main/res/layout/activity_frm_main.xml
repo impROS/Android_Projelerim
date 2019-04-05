@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:backgroundTint="@android:color/holo_orange_dark"
+    tools:context="com.yemek.tunceli.impros.tunceliyemeklistesi.frmMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark">
+
+            <TextView
+                android:id="@+id/txtYemekhaneDurum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTarih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtGun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoşgeldiniz.."
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:id="@+id/txtBirinciYemek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="Veriler Yükleniyor.."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtIkinciYemek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtUcuncuYemek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDorduncuYemek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rate_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Yemek Puanı"
+            android:textSize="18dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rate_me"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_orange_light"
+            android:text="Submit"
+            android:textColor="@android:color/background_dark" />
+
+        <LinearLayout
+            android:id="@+id/dd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|end"
+            android:foregroundGravity="bottom|center"
+            android:gravity="center|end"
+            android:orientation="horizontal"
+            tools:background="@android:color/holo_blue_dark">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="0.3"
+                android:background="?attr/actionModeCloseDrawable"
+                android:enabled="false"
+                android:shadowColor="@android:color/holo_green_light"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="361dp" />
+
+            <Space
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.3"
+                android:background="?attr/actionModeCloseDrawable"
+                android:enabled="false"
+                android:rotation="180"
+                android:saveEnabled="false"
+                android:shadowColor="@android:color/holo_green_light"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="406dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

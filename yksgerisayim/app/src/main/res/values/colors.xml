@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="fbWhite">#dfe3ee</color>
+    <color name="colorToolbar">#5777ba</color>
+
+    <color name="colorAccent">#5777ba</color>
+
+    <color name="grey_20">#cccccc</color>
+
+
+    <!--Material color list from https://material.io/guidelines/style/color.html-->
+
+    <color name="blue_600">#1E88E5</color>
+
+
+    <!--for random color generator -->
+
+
+</resources>

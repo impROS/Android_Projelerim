@@ -1,0 +1,139 @@
+{
+  "project_info": {
+    "project_number": "1019429076318",
+    "firebase_url": "https://ygs-sayaci-eaa94.firebaseio.com",
+    "project_id": "ygs-sayaci-eaa94",
+    "storage_bucket": "ygs-sayaci-eaa94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019429076318:android:7ee18abc3216b1dc",
+        "android_client_info": {
+          "package_name": "impros.cale.yksgerisayim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019429076318-fks6gt0csstvr2d0hm5fq1251cqv060e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impros.cale.yksgerisayim",
+            "certificate_hash": "5d928d22c6211c8c2945cdc153e55fcc8a41f34b"
+          }
+        },
+        {
+          "client_id": "1019429076318-f4qnkro8v4rp6upmhanecru016imvgvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQupz9KoctnYYrLEF6SkR_Uj_Ubsn4Bzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019429076318-f4qnkro8v4rp6upmhanecru016imvgvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019429076318:android:0b31a0646cc48fc9",
+        "android_client_info": {
+          "package_name": "impros.kalip_proje_sayac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019429076318-p3es604hjh1vlnjsvt54ou68tbio30hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impros.kalip_proje_sayac",
+            "certificate_hash": "5d928d22c6211c8c2945cdc153e55fcc8a41f34b"
+          }
+        },
+        {
+          "client_id": "1019429076318-f4qnkro8v4rp6upmhanecru016imvgvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQupz9KoctnYYrLEF6SkR_Uj_Ubsn4Bzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019429076318-f4qnkro8v4rp6upmhanecru016imvgvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019429076318:android:1afe6fae9491bd76",
+        "android_client_info": {
+          "package_name": "impros.ygsgerisayim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019429076318-mk35gialln6h2qi3lgb3o7ev8gba4nts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "impros.ygsgerisayim",
+            "certificate_hash": "5d928d22c6211c8c2945cdc153e55fcc8a41f34b"
+          }
+        },
+        {
+          "client_id": "1019429076318-f4qnkro8v4rp6upmhanecru016imvgvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQupz9KoctnYYrLEF6SkR_Uj_Ubsn4Bzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-5613039344918705~6722736671"
+    }
+  ],
+  "configuration_version": "1"
+}

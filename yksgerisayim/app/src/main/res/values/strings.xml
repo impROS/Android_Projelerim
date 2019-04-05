@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YKS Sayacı-2019 </string>
+    <string name="settings">Ayarlar</string>
+    <string name="notifications">Duyurular</string>
+    <string name="homepage">Anasayfa</string>
+    <string name="uzunyazi">10:10:10\n
+    Gun</string>
+</resources>
